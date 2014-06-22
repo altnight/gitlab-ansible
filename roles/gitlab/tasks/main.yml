@@ -1,9 +1,9 @@
 ---
 
-- name: Clone the GitLab 6.5-stable repository
+- name: Clone the GitLab 6.9-stable repository
   sudo: True
   sudo_user: git
-  git: repo=https://github.com/gitlabhq/gitlabhq.git dest=/home/git/gitlab version=6-5-stable
+  git: repo=https://github.com/gitlabhq/gitlabhq.git dest=/home/git/gitlab version=6-9-stable
 
 - name: Write the GitLab config file
   sudo: True
